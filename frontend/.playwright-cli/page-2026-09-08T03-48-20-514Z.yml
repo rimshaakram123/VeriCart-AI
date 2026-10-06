@@ -1,0 +1,635 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - text: 每件商品的评价均经 AI 核验
+    - generic [ref=e11]:
+      - img [ref=e13]
+      - text: 满 ¥50 包邮
+    - generic [ref=e16]:
+      - img [ref=e18]
+      - text: 7×24 小时 AI 购物助手
+    - link "可信评分如何计算" [ref=e21] [cursor=pointer]:
+      - /url: /how-it-works
+  - banner [ref=e22]:
+    - generic [ref=e23]:
+      - link "VeriCartAI" [ref=e24] [cursor=pointer]:
+        - /url: /
+        - img [ref=e26]
+        - generic [ref=e29]: VeriCartAI
+      - generic [ref=e30]:
+        - img [ref=e32]
+        - textbox "搜索" [ref=e34]:
+          - /placeholder: 搜索商品…
+        - button "搜索" [ref=e35] [cursor=pointer]
+      - generic [ref=e36]:
+        - navigation [ref=e37]:
+          - link "首页" [ref=e38] [cursor=pointer]:
+            - /url: /
+            - img [ref=e40]
+          - link "全部商品" [ref=e42] [cursor=pointer]:
+            - /url: /products
+            - img [ref=e44]
+          - link "可信评分" [ref=e46] [cursor=pointer]:
+            - /url: /trust-score
+            - img [ref=e48]
+        - button "中" [ref=e53] [cursor=pointer]:
+          - text: 中
+          - img [ref=e55]
+        - link "登录" [ref=e57] [cursor=pointer]:
+          - /url: /login
+    - generic [ref=e59]:
+      - button "Previous categories" [disabled] [ref=e60]:
+        - img [ref=e62]
+      - navigation [ref=e64]:
+        - link "服装鞋帽" [ref=e66] [cursor=pointer]:
+          - /url: /products?categoryId=2
+        - link "农产品与生鲜食品" [ref=e68] [cursor=pointer]:
+          - /url: /products?categoryId=34
+        - link "家居百货" [ref=e70] [cursor=pointer]:
+          - /url: /products?categoryId=3
+        - link "数码3C" [ref=e72] [cursor=pointer]:
+          - /url: /products?categoryId=1
+        - link "家用电器" [ref=e74] [cursor=pointer]:
+          - /url: /products?categoryId=42
+        - link "美妆个护" [ref=e76] [cursor=pointer]:
+          - /url: /products?categoryId=26
+        - link "母婴用品" [ref=e78] [cursor=pointer]:
+          - /url: /products?categoryId=30
+        - link "运动户外" [ref=e80] [cursor=pointer]:
+          - /url: /products?categoryId=5
+        - link "汽车用品" [ref=e82] [cursor=pointer]:
+          - /url: /products?categoryId=46
+        - link "宠物用品" [ref=e84] [cursor=pointer]:
+          - /url: /products?categoryId=50
+        - link "文具办公" [ref=e86] [cursor=pointer]:
+          - /url: /products?categoryId=4
+      - button "Next categories" [disabled] [ref=e87]:
+        - img [ref=e89]
+  - main [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e94]:
+        - heading "全部商品" [level=1] [ref=e95]
+        - paragraph [ref=e96]: 找到 208 件商品
+      - generic [ref=e98]:
+        - generic [ref=e100]:
+          - img [ref=e103]
+          - textbox "搜索商品…" [ref=e105]
+        - generic [ref=e108] [cursor=pointer]:
+          - generic:
+            - combobox [ref=e110]
+            - generic [ref=e111]: 全部分类
+          - img [ref=e114]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic:
+            - combobox [ref=e119]
+            - generic [ref=e120]: 最新上架
+          - img [ref=e123]
+        - button "搜索" [ref=e125] [cursor=pointer]:
+          - generic [ref=e126]: 搜索
+      - generic [ref=e127]:
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]:
+            - img [ref=e132]
+            - generic "AI Trust Score 87/100" [ref=e134]:
+              - img [ref=e136]
+              - text: "87"
+            - button "Taobao" [ref=e139]:
+              - img [ref=e141]
+              - text: Taobao
+            - button "Add" [ref=e143]:
+              - img [ref=e145]
+              - text: Add
+          - generic [ref=e147]:
+            - generic [ref=e148]: WeatherTech DigitalFit Floor Mats
+            - generic [ref=e150]: ¥899
+            - generic [ref=e151]:
+              - generic "4.5 out of 5" [ref=e152]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e153]: 5400 reviews
+              - generic [ref=e154]: WeatherTech
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - generic [ref=e157]: Compatibility
+                - button "Universal" [ref=e158]
+                - button "Model Specific" [ref=e159]
+              - generic [ref=e160]:
+                - generic [ref=e161]: Color
+                - button "Black" [ref=e162]
+                - button "Silver" [ref=e163]
+            - button "Product Details / Reviews (5400)" [ref=e164]:
+              - img [ref=e166]
+              - generic [ref=e168]: Product Details / Reviews (5400)
+              - img [ref=e170]
+        - generic [ref=e172] [cursor=pointer]:
+          - generic [ref=e173]:
+            - img [ref=e176]
+            - generic "AI Trust Score 95/100" [ref=e178]:
+              - img [ref=e180]
+              - text: "95"
+            - button "Taobao" [ref=e183]:
+              - img [ref=e185]
+              - text: Taobao
+            - button "Add" [ref=e187]:
+              - img [ref=e189]
+              - text: Add
+          - generic [ref=e191]:
+            - generic [ref=e192]: Sony Alpha A7 IV Camera
+            - generic [ref=e194]: ¥16999
+            - generic [ref=e195]:
+              - generic "4.9 out of 5" [ref=e196]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e197]: 760 reviews
+              - generic [ref=e198]: Sony
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - generic [ref=e201]: Color
+                - button "Space Gray" [ref=e202]
+                - button "Silver" [ref=e203]
+                - button "Gold" [ref=e204]
+                - generic [ref=e205]: "+1"
+              - generic [ref=e206]:
+                - generic [ref=e207]: Storage
+                - button "128GB" [ref=e208]
+                - button "256GB" [ref=e209]
+                - button "512GB" [ref=e210]
+                - generic [ref=e211]: "+1"
+            - button "Product Details / Reviews (760)" [ref=e212]:
+              - img [ref=e214]
+              - generic [ref=e216]: Product Details / Reviews (760)
+              - img [ref=e218]
+        - generic [ref=e220] [cursor=pointer]:
+          - generic [ref=e221]:
+            - img [ref=e224]
+            - generic "AI Trust Score 90/100" [ref=e226]:
+              - img [ref=e228]
+              - text: "90"
+            - button "Taobao" [ref=e231]:
+              - img [ref=e233]
+              - text: Taobao
+            - button "Add" [ref=e235]:
+              - img [ref=e237]
+              - text: Add
+          - generic [ref=e239]:
+            - generic [ref=e240]: Huawei MatePad Pro 13.2
+            - generic [ref=e242]: ¥5299
+            - generic [ref=e243]:
+              - generic "4.7 out of 5" [ref=e244]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e245]: 1500 reviews
+              - generic [ref=e246]: Huawei
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - generic [ref=e249]: Color
+                - button "Space Gray" [ref=e250]
+                - button "Silver" [ref=e251]
+                - button "Gold" [ref=e252]
+                - generic [ref=e253]: "+1"
+              - generic [ref=e254]:
+                - generic [ref=e255]: Storage
+                - button "128GB" [ref=e256]
+                - button "256GB" [ref=e257]
+                - button "512GB" [ref=e258]
+                - generic [ref=e259]: "+1"
+            - button "Product Details / Reviews (1500)" [ref=e260]:
+              - img [ref=e262]
+              - generic [ref=e264]: Product Details / Reviews (1500)
+              - img [ref=e266]
+        - generic [ref=e268] [cursor=pointer]:
+          - generic [ref=e269]:
+            - img [ref=e272]
+            - generic "AI Trust Score 93/100" [ref=e274]:
+              - img [ref=e276]
+              - text: "93"
+            - button "Taobao" [ref=e279]:
+              - img [ref=e281]
+              - text: Taobao
+            - button "Add" [ref=e283]:
+              - img [ref=e285]
+              - text: Add
+          - generic [ref=e287]:
+            - generic [ref=e288]: Apple iPad Air 11 M2
+            - generic [ref=e290]: ¥4799
+            - generic [ref=e291]:
+              - generic "4.8 out of 5" [ref=e292]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e293]: 2300 reviews
+              - generic [ref=e294]: Apple
+            - generic [ref=e295]:
+              - generic [ref=e296]:
+                - generic [ref=e297]: Color
+                - button "Space Gray" [ref=e298]
+                - button "Silver" [ref=e299]
+                - button "Gold" [ref=e300]
+                - generic [ref=e301]: "+1"
+              - generic [ref=e302]:
+                - generic [ref=e303]: Storage
+                - button "128GB" [ref=e304]
+                - button "256GB" [ref=e305]
+                - button "512GB" [ref=e306]
+                - generic [ref=e307]: "+1"
+            - button "Product Details / Reviews (2300)" [ref=e308]:
+              - img [ref=e310]
+              - generic [ref=e312]: Product Details / Reviews (2300)
+              - img [ref=e314]
+        - generic [ref=e316] [cursor=pointer]:
+          - generic [ref=e317]:
+            - img [ref=e320]
+            - generic "AI Trust Score 91/100" [ref=e322]:
+              - img [ref=e324]
+              - text: "91"
+            - button "Taobao" [ref=e327]:
+              - img [ref=e329]
+              - text: Taobao
+            - button "Add" [ref=e331]:
+              - img [ref=e333]
+              - text: Add
+          - generic [ref=e335]:
+            - generic [ref=e336]: Apple AirPods Pro 2
+            - generic [ref=e338]: ¥1899
+            - generic [ref=e339]:
+              - generic "4.7 out of 5" [ref=e340]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e341]: 8900 reviews
+              - generic [ref=e342]: Apple
+            - generic [ref=e343]:
+              - generic [ref=e344]:
+                - generic [ref=e345]: Color
+                - button "Space Gray" [ref=e346]
+                - button "Silver" [ref=e347]
+                - button "Gold" [ref=e348]
+                - generic [ref=e349]: "+1"
+              - generic [ref=e350]:
+                - generic [ref=e351]: Storage
+                - button "128GB" [ref=e352]
+                - button "256GB" [ref=e353]
+                - button "512GB" [ref=e354]
+                - generic [ref=e355]: "+1"
+            - button "Product Details / Reviews (8900)" [ref=e356]:
+              - img [ref=e358]
+              - generic [ref=e360]: Product Details / Reviews (8900)
+              - img [ref=e362]
+        - generic [ref=e364] [cursor=pointer]:
+          - generic [ref=e365]:
+            - img [ref=e368]
+            - generic "AI Trust Score 91/100" [ref=e370]:
+              - img [ref=e372]
+              - text: "91"
+            - button "Taobao" [ref=e375]:
+              - img [ref=e377]
+              - text: Taobao
+            - button "Add" [ref=e379]:
+              - img [ref=e381]
+              - text: Add
+          - generic [ref=e383]:
+            - generic [ref=e384]: 70mai A810 Dash Cam
+            - generic [ref=e386]: ¥699
+            - generic [ref=e387]:
+              - generic "4.7 out of 5" [ref=e388]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e389]: 8900 reviews
+              - generic [ref=e390]: 70mai
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e393]: Compatibility
+                - button "Universal" [ref=e394]
+                - button "Model Specific" [ref=e395]
+              - generic [ref=e396]:
+                - generic [ref=e397]: Color
+                - button "Black" [ref=e398]
+                - button "Silver" [ref=e399]
+            - button "Product Details / Reviews (8900)" [ref=e400]:
+              - img [ref=e402]
+              - generic [ref=e404]: Product Details / Reviews (8900)
+              - img [ref=e406]
+        - generic [ref=e408] [cursor=pointer]:
+          - generic [ref=e409]:
+            - img [ref=e412]
+            - generic "AI Trust Score 90/100" [ref=e414]:
+              - img [ref=e416]
+              - text: "90"
+            - button "Taobao" [ref=e419]:
+              - img [ref=e421]
+              - text: Taobao
+            - button "Add" [ref=e423]:
+              - img [ref=e425]
+              - text: Add
+          - generic [ref=e427]:
+            - generic [ref=e428]: Xiaomi 100W Car Charger
+            - generic [ref=e430]: ¥129
+            - generic [ref=e431]:
+              - generic "4.6 out of 5" [ref=e432]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e433]: 23000 reviews
+              - generic [ref=e434]: Xiaomi
+            - generic [ref=e435]:
+              - generic [ref=e436]:
+                - generic [ref=e437]: Compatibility
+                - button "Universal" [ref=e438]
+                - button "Model Specific" [ref=e439]
+              - generic [ref=e440]:
+                - generic [ref=e441]: Color
+                - button "Black" [ref=e442]
+                - button "Silver" [ref=e443]
+            - button "Product Details / Reviews (23000)" [ref=e444]:
+              - img [ref=e446]
+              - generic [ref=e448]: Product Details / Reviews (23000)
+              - img [ref=e450]
+        - generic [ref=e452] [cursor=pointer]:
+          - generic [ref=e453]:
+            - img [ref=e456]
+            - generic "AI Trust Score 89/100" [ref=e458]:
+              - img [ref=e460]
+              - text: "89"
+            - button "Taobao" [ref=e463]:
+              - img [ref=e465]
+              - text: Taobao
+            - button "Add" [ref=e467]:
+              - img [ref=e469]
+              - text: Add
+          - generic [ref=e471]:
+            - generic [ref=e472]: Midea 10kg Front-Load Washer
+            - generic [ref=e474]: ¥2599
+            - generic [ref=e475]:
+              - generic "4.6 out of 5" [ref=e476]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e477]: 11200 reviews
+              - generic [ref=e478]: Midea
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - generic [ref=e481]: Color
+                - button "White" [ref=e482]
+                - button "Black" [ref=e483]
+              - generic [ref=e484]:
+                - generic [ref=e485]: Model
+                - button "Basic" [ref=e486]
+                - button "Premium" [ref=e487]
+            - button "Product Details / Reviews (11200)" [ref=e488]:
+              - img [ref=e490]
+              - generic [ref=e492]: Product Details / Reviews (11200)
+              - img [ref=e494]
+        - generic [ref=e496] [cursor=pointer]:
+          - generic [ref=e497]:
+            - img [ref=e500]
+            - generic "AI Trust Score 95/100" [ref=e502]:
+              - img [ref=e504]
+              - text: "95"
+            - button "Taobao" [ref=e507]:
+              - img [ref=e509]
+              - text: Taobao
+            - button "Add" [ref=e511]:
+              - img [ref=e513]
+              - text: Add
+          - generic [ref=e515]:
+            - generic [ref=e516]: Sony WH-1000XM5 Headphones
+            - generic [ref=e518]: ¥2499
+            - generic [ref=e519]:
+              - generic "4.8 out of 5" [ref=e520]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e521]: 6700 reviews
+              - generic [ref=e522]: Sony
+            - generic [ref=e523]:
+              - generic [ref=e524]:
+                - generic [ref=e525]: Color
+                - button "Space Gray" [ref=e526]
+                - button "Silver" [ref=e527]
+                - button "Gold" [ref=e528]
+                - generic [ref=e529]: "+1"
+              - generic [ref=e530]:
+                - generic [ref=e531]: Storage
+                - button "128GB" [ref=e532]
+                - button "256GB" [ref=e533]
+                - button "512GB" [ref=e534]
+                - generic [ref=e535]: "+1"
+            - button "Product Details / Reviews (6700)" [ref=e536]:
+              - img [ref=e538]
+              - generic [ref=e540]: Product Details / Reviews (6700)
+              - img [ref=e542]
+        - generic [ref=e544] [cursor=pointer]:
+          - generic [ref=e545]:
+            - img [ref=e548]
+            - generic "AI Trust Score 93/100" [ref=e550]:
+              - img [ref=e552]
+              - text: "93"
+            - button "Taobao" [ref=e555]:
+              - img [ref=e557]
+              - text: Taobao
+            - button "Add" [ref=e559]:
+              - img [ref=e561]
+              - text: Add
+          - generic [ref=e563]:
+            - generic [ref=e564]: Lenovo ThinkPad X1 Carbon Gen 12
+            - generic [ref=e566]: ¥12999
+            - generic [ref=e567]:
+              - generic "4.8 out of 5" [ref=e568]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e569]: 980 reviews
+              - generic [ref=e570]: Lenovo
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - generic [ref=e573]: Color
+                - button "Space Gray" [ref=e574]
+                - button "Silver" [ref=e575]
+                - button "Gold" [ref=e576]
+                - generic [ref=e577]: "+1"
+              - generic [ref=e578]:
+                - generic [ref=e579]: Storage
+                - button "128GB" [ref=e580]
+                - button "256GB" [ref=e581]
+                - button "512GB" [ref=e582]
+                - generic [ref=e583]: "+1"
+            - button "Product Details / Reviews (980)" [ref=e584]:
+              - img [ref=e586]
+              - generic [ref=e588]: Product Details / Reviews (980)
+              - img [ref=e590]
+        - generic [ref=e592] [cursor=pointer]:
+          - generic [ref=e593]:
+            - img [ref=e596]
+            - generic "AI Trust Score 96/100" [ref=e598]:
+              - img [ref=e600]
+              - text: "96"
+            - button "Taobao" [ref=e603]:
+              - img [ref=e605]
+              - text: Taobao
+            - button "Add" [ref=e607]:
+              - img [ref=e609]
+              - text: Add
+          - generic [ref=e611]:
+            - generic [ref=e612]: Apple MacBook Pro 14 M3
+            - generic [ref=e614]: ¥14999
+            - generic [ref=e615]:
+              - generic "4.9 out of 5" [ref=e616]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e617]: 1890 reviews
+              - generic [ref=e618]: Apple
+            - generic [ref=e619]:
+              - generic [ref=e620]:
+                - generic [ref=e621]: Color
+                - button "Space Gray" [ref=e622]
+                - button "Silver" [ref=e623]
+                - button "Gold" [ref=e624]
+                - generic [ref=e625]: "+1"
+              - generic [ref=e626]:
+                - generic [ref=e627]: Storage
+                - button "128GB" [ref=e628]
+                - button "256GB" [ref=e629]
+                - button "512GB" [ref=e630]
+                - generic [ref=e631]: "+1"
+            - button "Product Details / Reviews (1890)" [ref=e632]:
+              - img [ref=e634]
+              - generic [ref=e636]: Product Details / Reviews (1890)
+              - img [ref=e638]
+        - generic [ref=e640] [cursor=pointer]:
+          - generic [ref=e641]:
+            - img [ref=e644]
+            - generic "AI Trust Score 92/100" [ref=e646]:
+              - img [ref=e648]
+              - text: "92"
+            - button "Taobao" [ref=e651]:
+              - img [ref=e653]
+              - text: Taobao
+            - button "Add" [ref=e655]:
+              - img [ref=e657]
+              - text: Add
+          - generic [ref=e659]:
+            - generic [ref=e660]: Xiaomi Redmi Note 13 Pro 5G
+            - generic [ref=e662]: ¥1499
+            - generic [ref=e663]:
+              - generic "4.7 out of 5" [ref=e664]:
+                - text: ★★★★★
+                - generic: ★★★★★
+              - generic [ref=e665]: 5400 reviews
+              - generic [ref=e666]: Xiaomi
+            - generic [ref=e667]:
+              - generic [ref=e668]:
+                - generic [ref=e669]: Color
+                - button "Space Gray" [ref=e670]
+                - button "Silver" [ref=e671]
+                - button "Gold" [ref=e672]
+                - generic [ref=e673]: "+1"
+              - generic [ref=e674]:
+                - generic [ref=e675]: Storage
+                - button "128GB" [ref=e676]
+                - button "256GB" [ref=e677]
+                - button "512GB" [ref=e678]
+                - generic [ref=e679]: "+1"
+            - button "Product Details / Reviews (5400)" [ref=e680]:
+              - img [ref=e682]
+              - generic [ref=e684]: Product Details / Reviews (5400)
+              - img [ref=e686]
+      - generic [ref=e689]:
+        - generic [ref=e690]: Total 208
+        - generic [ref=e693] [cursor=pointer]:
+          - generic:
+            - combobox [ref=e695]
+            - generic [ref=e696]: 12/page
+          - img [ref=e699]
+        - button "Go to previous page" [disabled] [ref=e701]:
+          - generic:
+            - img
+        - list [ref=e702]:
+          - listitem "page 1" [ref=e703]: "1"
+          - listitem "page 2" [ref=e704] [cursor=pointer]: "2"
+          - listitem "page 3" [ref=e705] [cursor=pointer]: "3"
+          - listitem "page 4" [ref=e706] [cursor=pointer]: "4"
+          - listitem "page 5" [ref=e707] [cursor=pointer]: "5"
+          - listitem "page 6" [ref=e708] [cursor=pointer]: "6"
+          - listitem "Next 5 pages" [ref=e709] [cursor=pointer]:
+            - img
+          - listitem "page 18" [ref=e710] [cursor=pointer]: "18"
+        - button "Go to next page" [ref=e711] [cursor=pointer]:
+          - generic:
+            - img
+        - generic [ref=e712]:
+          - generic [ref=e713]: Go to
+          - spinbutton "Page" [ref=e716]: "1"
+  - contentinfo [ref=e717]:
+    - generic [ref=e718]:
+      - generic [ref=e719]:
+        - link "VeriCart AI" [ref=e720] [cursor=pointer]:
+          - /url: /
+          - img [ref=e722]
+          - text: VeriCart
+          - generic [ref=e725]: AI
+        - paragraph [ref=e726]: AI 核验电商。每一条评价都经过多个大模型分析，让你买得放心，而不是靠猜。
+        - generic [ref=e727]:
+          - img [ref=e729]
+          - textbox "邮箱" [ref=e732]:
+            - /placeholder: 订阅优惠提醒
+          - button "订阅" [disabled] [ref=e733]
+        - generic [ref=e734]:
+          - link "Share" [ref=e735] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e737]
+          - link "GitHub" [ref=e739] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e741]
+          - link "Community" [ref=e743] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e745]
+      - generic [ref=e748]:
+        - generic [ref=e749]:
+          - heading "选购" [level=4] [ref=e750]
+          - link "全部商品" [ref=e751] [cursor=pointer]:
+            - /url: /products
+          - link "最可信商品" [ref=e752] [cursor=pointer]:
+            - /url: /products?sort=trust
+          - link "AI 智能推荐" [ref=e753] [cursor=pointer]:
+            - /url: /recommendations
+          - link "商品对比" [ref=e754] [cursor=pointer]:
+            - /url: /compare
+          - link "购物车" [ref=e755] [cursor=pointer]:
+            - /url: /cart
+        - generic [ref=e756]:
+          - heading "我的账户" [level=4] [ref=e757]
+          - link "我的订单" [ref=e758] [cursor=pointer]:
+            - /url: /orders
+          - link "收藏夹" [ref=e759] [cursor=pointer]:
+            - /url: /wishlist
+          - link "消息" [ref=e760] [cursor=pointer]:
+            - /url: /messages
+          - link "通知" [ref=e761] [cursor=pointer]:
+            - /url: /notifications
+          - link "账号设置" [ref=e762] [cursor=pointer]:
+            - /url: /profile
+        - generic [ref=e763]:
+          - heading "关于我们" [level=4] [ref=e764]
+          - link "运作原理" [ref=e765] [cursor=pointer]:
+            - /url: /how-it-works
+          - link "可信评分" [ref=e766] [cursor=pointer]:
+            - /url: /trust-score
+          - link "AI 技术" [ref=e767] [cursor=pointer]:
+            - /url: /ai-technology
+          - link "入驻 VeriCart" [ref=e768] [cursor=pointer]:
+            - /url: /seller
+        - generic [ref=e769]:
+          - heading "客服支持" [level=4] [ref=e770]
+          - paragraph [ref=e771]:
+            - img [ref=e773]
+            - text: support@vericart.ai
+          - paragraph [ref=e776]:
+            - img [ref=e778]
+            - text: 中国 · 北京
+          - paragraph [ref=e781]:
+            - img [ref=e783]
+            - text: 周一至周五 9:00–18:00
+          - paragraph [ref=e787]:
+            - img [ref=e789]
+            - text: AI 信任认证
+    - generic [ref=e793]:
+      - generic [ref=e794]: © 2026 VeriCart AI — Team Algorists 保留所有权利。
+      - generic [ref=e795]:
+        - generic [ref=e796]: 由 DeepSeek · Qwen · 腾讯混元 提供支持
+        - generic [ref=e797]: ·
+        - generic [ref=e798]: Spring Boot + Vue.js 3

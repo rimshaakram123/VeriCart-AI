@@ -495,7 +495,7 @@ export default {
     trustScore: '可信评分',
     aiTechnology: 'AI 技术',
     sellOnVericart: '入驻 VeriCart',
-    contactEmail: 'support@vericart.ai',
+    contactEmail:  "support{'@'}vericart.ai",
     contactLocation: '中国 · 北京',
     contactHours: '周一至周五 9:00–18:00',
     trustVerified: 'AI 信任认证',

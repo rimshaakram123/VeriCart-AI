@@ -495,7 +495,7 @@ export default {
     trustScore: 'Trust Score',
     aiTechnology: 'AI Technology',
     sellOnVericart: 'Sell on VeriCart',
-    contactEmail: 'support@vericart.ai',
+    contactEmail: "support{'@'}vericart.ai",
     contactLocation: 'Beijing, China',
     contactHours: 'Mon–Fri, 9:00–18:00',
     trustVerified: 'AI Trust Verified',

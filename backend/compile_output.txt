@@ -1,0 +1,19 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.vericart:vericart-ai >----------------------
+[INFO] Building VeriCart AI 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vericart-ai ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ vericart-ai ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.762 s
+[INFO] Finished at: 2026-07-01T22:17:35+08:00
+[INFO] ------------------------------------------------------------------------

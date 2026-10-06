@@ -1,0 +1,148 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - text: 每件商品的评价均经 AI 核验
+    - generic [ref=e11]:
+      - img [ref=e13]
+      - text: 满 ¥50 包邮
+    - generic [ref=e16]:
+      - img [ref=e18]
+      - text: 7×24 小时 AI 购物助手
+    - link "可信评分如何计算" [ref=e21] [cursor=pointer]:
+      - /url: /how-it-works
+  - banner [ref=e22]:
+    - generic [ref=e23]:
+      - link "VeriCartAI" [ref=e24] [cursor=pointer]:
+        - /url: /
+        - img [ref=e26]
+        - generic [ref=e29]: VeriCartAI
+      - generic [ref=e30]:
+        - img [ref=e32]
+        - textbox "搜索" [ref=e34]:
+          - /placeholder: 搜索商品…
+        - button "搜索" [ref=e35] [cursor=pointer]
+      - generic [ref=e36]:
+        - navigation [ref=e37]:
+          - link "首页" [ref=e38] [cursor=pointer]:
+            - /url: /
+            - img [ref=e40]
+          - link "全部商品" [ref=e42] [cursor=pointer]:
+            - /url: /products
+            - img [ref=e44]
+          - link "可信评分" [ref=e46] [cursor=pointer]:
+            - /url: /trust-score
+            - img [ref=e48]
+        - button "中" [ref=e53] [cursor=pointer]:
+          - text: 中
+          - img [ref=e55]
+        - link "登录" [ref=e57] [cursor=pointer]:
+          - /url: /login
+    - generic [ref=e59]:
+      - button "Previous categories" [disabled] [ref=e60]:
+        - img [ref=e62]
+      - navigation [ref=e64]:
+        - link "服装鞋帽" [ref=e66] [cursor=pointer]:
+          - /url: /products?categoryId=2
+        - link "农产品与生鲜食品" [ref=e68] [cursor=pointer]:
+          - /url: /products?categoryId=34
+        - link "家居百货" [ref=e70] [cursor=pointer]:
+          - /url: /products?categoryId=3
+        - link "数码3C" [ref=e72] [cursor=pointer]:
+          - /url: /products?categoryId=1
+        - link "家用电器" [ref=e74] [cursor=pointer]:
+          - /url: /products?categoryId=42
+        - link "美妆个护" [ref=e76] [cursor=pointer]:
+          - /url: /products?categoryId=26
+        - link "母婴用品" [ref=e78] [cursor=pointer]:
+          - /url: /products?categoryId=30
+        - link "运动户外" [ref=e80] [cursor=pointer]:
+          - /url: /products?categoryId=5
+        - link "汽车用品" [ref=e82] [cursor=pointer]:
+          - /url: /products?categoryId=46
+        - link "宠物用品" [ref=e84] [cursor=pointer]:
+          - /url: /products?categoryId=50
+        - link "文具办公" [ref=e86] [cursor=pointer]:
+          - /url: /products?categoryId=4
+      - button "Next categories" [disabled] [ref=e87]:
+        - img [ref=e89]
+  - main [ref=e91]
+  - contentinfo [ref=e717]:
+    - generic [ref=e718]:
+      - generic [ref=e719]:
+        - link "VeriCart AI" [ref=e720] [cursor=pointer]:
+          - /url: /
+          - img [ref=e722]
+          - text: VeriCart
+          - generic [ref=e725]: AI
+        - paragraph [ref=e726]: AI 核验电商。每一条评价都经过多个大模型分析，让你买得放心，而不是靠猜。
+        - generic [ref=e727]:
+          - img [ref=e729]
+          - textbox "邮箱" [ref=e732]:
+            - /placeholder: 订阅优惠提醒
+          - button "订阅" [disabled] [ref=e733]
+        - generic [ref=e734]:
+          - link "Share" [ref=e735] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e737]
+          - link "GitHub" [ref=e739] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e741]
+          - link "Community" [ref=e743] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e745]
+      - generic [ref=e748]:
+        - generic [ref=e749]:
+          - heading "选购" [level=4] [ref=e750]
+          - link "全部商品" [ref=e751] [cursor=pointer]:
+            - /url: /products
+          - link "最可信商品" [ref=e752] [cursor=pointer]:
+            - /url: /products?sort=trust
+          - link "AI 智能推荐" [ref=e753] [cursor=pointer]:
+            - /url: /recommendations
+          - link "商品对比" [ref=e754] [cursor=pointer]:
+            - /url: /compare
+          - link "购物车" [ref=e755] [cursor=pointer]:
+            - /url: /cart
+        - generic [ref=e756]:
+          - heading "我的账户" [level=4] [ref=e757]
+          - link "我的订单" [ref=e758] [cursor=pointer]:
+            - /url: /orders
+          - link "收藏夹" [ref=e759] [cursor=pointer]:
+            - /url: /wishlist
+          - link "消息" [ref=e760] [cursor=pointer]:
+            - /url: /messages
+          - link "通知" [ref=e761] [cursor=pointer]:
+            - /url: /notifications
+          - link "账号设置" [ref=e762] [cursor=pointer]:
+            - /url: /profile
+        - generic [ref=e763]:
+          - heading "关于我们" [level=4] [ref=e764]
+          - link "运作原理" [ref=e765] [cursor=pointer]:
+            - /url: /how-it-works
+          - link "可信评分" [ref=e766] [cursor=pointer]:
+            - /url: /trust-score
+          - link "AI 技术" [ref=e767] [cursor=pointer]:
+            - /url: /ai-technology
+          - link "入驻 VeriCart" [ref=e768] [cursor=pointer]:
+            - /url: /seller
+        - generic [ref=e769]:
+          - heading "客服支持" [level=4] [ref=e770]
+          - paragraph [ref=e771]:
+            - img [ref=e773]
+            - text: support@vericart.ai
+          - paragraph [ref=e776]:
+            - img [ref=e778]
+            - text: 中国 · 北京
+          - paragraph [ref=e781]:
+            - img [ref=e783]
+            - text: 周一至周五 9:00–18:00
+          - paragraph [ref=e787]:
+            - img [ref=e789]
+            - text: AI 信任认证
+    - generic [ref=e793]:
+      - generic [ref=e794]: © 2026 VeriCart AI — Team Algorists 保留所有权利。
+      - generic [ref=e795]:
+        - generic [ref=e796]: 由 DeepSeek · Qwen · 腾讯混元 提供支持
+        - generic [ref=e797]: ·
+        - generic [ref=e798]: Spring Boot + Vue.js 3

@@ -117,16 +117,29 @@ const CATEGORY_ICONS = {
   1: Monitor, 2: ShoppingBag, 3: House, 4: Reading, 5: Football,
   26: MagicStick, 30: Present, 34: Apple, 42: Refrigerator, 46: Van, 50: Brush
 }
-
 const imageUrl = computed(() => {
-  const raw = props.product?.images
-  if (!raw) return ''
-  try {
-    const imgs = JSON.parse(raw)
-    return Array.isArray(imgs) ? (imgs[0] || '') : String(imgs)
-  } catch {
-    return String(raw)
+
+  let images = props.product.images
+
+  if (!images || images === "[]") {
+    return ''
   }
+
+  try {
+    if (typeof images === 'string') {
+      images = JSON.parse(images)
+    }
+
+    if (Array.isArray(images) && images.length > 0) {
+      return images[0]
+    }
+
+  } catch (e) {
+    console.log("Image parse error:", e)
+  }
+
+  return ''
+
 })
 
 const discountPercent = computed(() => {
